@@ -4,7 +4,7 @@ LABEL "maintainer"="Ammar Askar <ammar@ammaraskar.com>"
 
 # Install Java
 RUN apt-get update && \
-    apt-get install -y openjdk-11-jdk && \
+    apt-get install -y openjdk-21-jdk && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
